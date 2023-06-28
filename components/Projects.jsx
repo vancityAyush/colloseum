@@ -1,6 +1,6 @@
 import React from 'react';
 import onstageImg from '../public/assets/projects/onstage.jpg';
-import offstageImg from '../public/assets/projects/offstage.jpeg'
+import offstageImg from '../public/assets/projects/offstage.jpg'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {

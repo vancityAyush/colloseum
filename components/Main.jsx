@@ -1,18 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
-import poster from '../public/assets/poster.png';
+import left from '../public/assets/left.png';
+import right from '../public/assets/right.png';
+import logo from '../public/assets/logo.svg';
+
 
 
 const Main = () => {
   return (
-    <div id='home' className=''>
-      <div className='w-full h-full m-auto  rounded-xl flex items-center justify-center p-4 S'>
+    <div id='home' className='fixed flex w-full h-full justify-between'>
+      <div className='w-[20%] h-[50%]'>
         <Image
-          src={poster}
+          src={left}
           alt='/'
           fit="contain"
-          width={550}
-          height={800}
+          className='fixed z-1 left-0 top-0'
+        />
+      </div>
+      <div className='w-[40%] h-[50%]'>
+        <Image
+          src={right}
+          alt='/'
+          fit="contain"
+          className='fixed z-1 right-0 top-0'
         />
       </div>
     </div>

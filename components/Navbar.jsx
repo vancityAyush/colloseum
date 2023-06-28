@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { useRouter } from 'next/router';
-import navlogo from '../public/assets/navLogo.png';
+import navlogo from '../public/assets/amc.png';
 
 
 const Navbar = () => {
@@ -55,8 +55,8 @@ const Navbar = () => {
           <Image
             src={navlogo}
             alt='/'
-            width='50'
-            height='65'
+            width='100'
+            height='60'
           />
         </Link>
         <div>
@@ -150,7 +150,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            
+
           </div>
         </div>
       </div>

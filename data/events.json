@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Off Stage Events",
+        "link": "/offstage",
+        "eventsList": [
+            {
+                "name": "Pick and Speak"
+            },
+            {
+                "name": "Quiz"
+            },
+            {
+                "name": "Debate"
+            },
+            {
+                "name": "Stand-Up Comedy"
+            },
+            {
+                "name": "Street Play"
+            },
+            {
+                "name": "Sing your own song"
+            },
+            {
+                "name": "Mobile Photography"
+            },
+            {
+                "name": "Breaking(B-Boying)"
+            },
+            {
+                "name": "Painting"
+            },
+            {
+                "name": "Graffiti"
+            },
+            {
+                "name": "Doodle, Mandala & Zentangle"
+            },
+            {
+                "name": "Short Flim"
+            },
+            {
+                "name": "State Representation"
+            },
+            {
+                "name": "Poetry"
+            }
+        ]
+    },
+    {
+        "name": "On Stage Events",
+        "link": "/onstage",
+        "eventsList": [
+            {
+                "name": "Mr & Miss AMC"
+            },
+            {
+                "name": "Fashion Show"
+            },
+            {
+                "name": "Solo Dance"
+            },
+            {
+                "name": "Duo/Group Dance"
+            },
+            {
+                "name": "Solo Singing"
+            },
+            {
+                "name": "Band Show"
+            },
+            {
+                "name": "Beatboxing"
+            },
+            {
+                "name": "Rap Battle"
+            }
+        ]
+    },
+    {
+        "name": "Games",
+        "link": "/games",
+        "eventsList": [
+            {
+                "name": "E-Gaming"
+            },
+            {
+                "name": "Beg Borrow and Steal X Musical Chair"
+            },
+            {
+                "name": "Minute to win it"
+            },
+            {
+                "name": "Know it or Blow it"
+            },
+            {
+                "name": "Treasure Hunt"
+            }
+        ]
+    }
+]
