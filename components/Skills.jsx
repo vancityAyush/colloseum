@@ -15,7 +15,7 @@ const Skills = () => {
           events.map((event, index) => (
 
             <div key={index}>
-              <h2 className='py-4'>{event.name}</h2>
+              <h2 className='z-10 py-4'>{event.name}</h2>
 
               <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
                 {
@@ -25,9 +25,9 @@ const Skills = () => {
                     <div key={index1} className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-slate-900 '>
                       <div className=' gap-4 justify-center items-center'>
                         <div className='flex flex-col items-center justify-center'>
-                          {/* <Link href='/offstage'> */}
-                          <h3>{event.name}</h3>
-                          {/* </Link> */}
+                          <Link href='/offstage'>
+                            <h3>{event.name}</h3>
+                          </Link>
                         </div>
                       </div>
                     </div>

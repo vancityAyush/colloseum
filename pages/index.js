@@ -17,28 +17,34 @@ export default function Home() {
         <link rel="icon" href="../public/assets/amc.png" />
       </Head>
 
+
       <div className='poster'>
-        <Main />
+        <Main>
+          <div className='w-full h-full m-auto flex items-center justify-center p-4 S'>
+            <Image
+              src={logo}
+              alt='/'
+              fit="contain"
+              width={550}
+              height={600}
+            />
+          </div>
+          <About />
+          <div className='event'>
+            <Skills />
+          </div>
+        </Main>
       </div>
-      <div className='w-full h-full m-auto flex items-center justify-center p-4 S'>
-        <Image
-          src={logo}
-          alt='/'
-          fit="contain"
-          width={550}
-          height={600}
-        />
-      </div>
-      <About />
-      <div className='event'>
-        <Skills />
-      </div>
+
+
+
 
       {/* <div className='reg'>
         <Projects />
       </div> */}
 
       <Contact />
+
     </div>
   )
 }
